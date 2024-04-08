@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sara Komjo Portfolio</title>
+     <link rel="stylesheet" href="dog.css">
+        </head>
+        <body>
+<header>
+    <div class="container">
+        <h1>Sara Komjo</h1>
+        <nav>
+            <ul>
+                <li><a href="#ABOUT"><b>About</b></a></li>
+                <li><a href="#PROJECTS"><b>Projects</b></a></li>
+                <li><a href="#HOW TO FIND ME"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="pic">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-image">
+                    <img  href='https://postimg.cc/Th1pVLjq' target='_blank' src='https://i.postimg.cc/Th1pVLjq/IMG-4820.jpg'>
+                </div>
+                <div class="intro-text">
+                    <h2>Welcome to My Portfolio</h2>
+                    <p>Hello! I'm Sara Komjo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Greetings! I’m Sara K, a determined product manager with aspirations of diving into the world of front-end development. I
+                thrive on orchestrating product strategies and roadmaps, yet my true passion lies in the realm of coding and creating
+                captivating digital experiences. Join me as I transition and grow in this exciting field!</p>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="container">
+            
+        </div>
+    </section>
+    <section id="Projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <img href="" >
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img href="" >
+                <p>Description of project 2.</p>
+            </div>
+        </div>
+
+    </section>
+ 
+</main>
+        </body>
+        <footer>
+   <section id="Contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or inquiries, feel free to contact me:</p>
+        <ul>
+            <li>Email: <a href="mailto:your.Saragoyom@gmail.com">your.Saragoyom@gmail.com</a></li>
+            <li>Phone: 5159183552</li>
+        </ul>
+    </div>
+    </section>
+        </footer>
+</html>
+
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color:rgb(255, 204, 204) ;
+}
+
+header {
+    background-color: #cc0066;
+    color: #dfdfe2;
+    padding: 20px 0;
+    position: relative;
+    font:Sans-serif;
+    border-bottom: 10px solid white;
+}
+
+section {
+    border: 5px solid #dfdfe2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    position: absolute;
+    top: 10px;
+    left: 20px; 
+}
+ nav{
+    text-align: right; 
+ }
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+nav ul li:hover {
+    border: 1px solid #cc0066; 
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.intro-image {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+    background-color: white; 
+}
+
+.intro-image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
