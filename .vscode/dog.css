@@ -1,58 +1,32 @@
-
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    background-color:rgb(255, 204, 204) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 204, 204);
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #cc0066;
     color: #dfdfe2;
     padding: 20px 0;
-    position: relative;
-    font:Sans-serif;
+    font-family: Arial, sans-serif;
     border-bottom: 10px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-section {
-    border: 5px solid #dfdfe2;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
-header h1 {
-    font-size: 2em;
-    position: absolute;
-    top: 10px;
-    left: 20px; 
-}
- nav{
-    text-align: right; 
- }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
-    transition: all 0.3s ease;
-    background-color: white;
 }
 
-nav ul li:hover {
-    border: 1px solid #cc0066; 
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.intro-image {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden; 
-    background-color: white; 
-}
-
-.intro-image img {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover;
-}
+nav ul li a {
+    text-decoration: none;
+    color: #dfd
