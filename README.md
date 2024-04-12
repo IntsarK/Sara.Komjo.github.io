@@ -44,25 +44,23 @@
     <section id="resume">
         <h2>Resume</h2>
         <div class="container">
-            
-        </div>
-    </section>
+             </section>  
     <section id="Projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <img href="" >
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <img href="" >
-                <p>Description of project 2.</p>
-            </div>
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="https://example.com/project1.jpg" alt="Project 1 Image">
+            <p>Description of project 1.</p>
         </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <img src="https://example.com/project2.jpg" alt="Project 2 Image">
+            <p>Description of project 2.</p>
+        </div>
+    </div>
 
-    </section>
+
  
 </main>
         </body>
